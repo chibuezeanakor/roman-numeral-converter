@@ -29,7 +29,7 @@ def intToRomanNumerals(num):
             if (num >= value):
                 return numeral + intToRomanNumerals(num - value)
             
-number = 2024
-romanNumeral = intToRomanNumerals(number)
+# currentYear = 2024
+# currentYearInRomanNumeral = intToRomanNumerals(number)
 
-print(number, "in Roman numerals is", romanNumeral)
+# print(currentYear, "in Roman numerals is", currentYearInRomanNumeral)
