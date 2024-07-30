@@ -41,7 +41,6 @@ function intToRomanNumerals(num) {
                 }
             }
         }
-
     }
 }
 
