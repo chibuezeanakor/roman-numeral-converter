@@ -31,7 +31,7 @@ function intToRomanNumerals(num) {
         }
 
         while (num > 0) { // executes while num is greater than 0
-            for (value = 0; value < numbers.length; value++) { // iterates through the numbers array, with "value" as the current index
+            for (let value = 0; value < numbers.length; value++) { // iterates through the numbers array, with "value" as the current index
                 if (num >= numbers[value]) { // executes if num is greater than or equal to the current index of the numbers array
                     let numeral = romanNumeralMap[numbers[value]]; // a variable that stores the romanNumeralMap value associated with
                     // the current value from the numbers array
